@@ -3,9 +3,8 @@
 // Colors to use with ion icons
 // Somewhat based off Social Share Kit - https://github.com/darklow/social-share-kit/blob/master/dist/css/social-share-kit.css
 
-@use "sass:color";
-
 // By default the hover color is darkened. You can set the percent below
+@use "sass:color";
 $darken-percent: 10%;
 
 // Facebook colors
@@ -31,7 +30,7 @@ $X-background-hover: color.adjust($X-background, $lightness: -$darken-percent);
 $instagram-color: white;
 $instagram-color-hover: #d9a1f1;
 $instagram-background: linear-gradient(#4c4bdb85, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
-$instagram-background-hover: linear-gradient(color.adjust(#4c4bdb85, $lightness: -$darken-percent), color.adjust(transparent, $lightness: -$darken-percent)), linear-gradient(60deg, color.adjust(#ffff00, $lightness: -$darken-percent), color.adjust(#ff00d3, $lightness: $darken-percent), color.adjust(#0e39dc, $lightness: -$darken-percent));
+$instagram-background-hover: linear-gradient(color.adjust(#4c4bdb85, $lightness: -$darken-percent), color.adjust(transparent, $lightness: -$darken-percent)), linear-gradient(60deg, color.adjust(#ffff00, $lightness: -$darken-percent), color.adjust(#ff00d3, $lightness: -$darken-percent), color.adjust(#0e39dc, $lightness: -$darken-percent));
 
 // Youtube colors
 $youtube-color: white;
